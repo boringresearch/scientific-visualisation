@@ -5,7 +5,20 @@ My personal playground for crafting beautiful and jaw-dropping plots that make r
 
 Font is like clothes for your data. It can make your data look good, or it can make it look bad.
 
-![Good Font](images/image.png)
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%; text-align: center;">
+      <img src="images/correcting_precision_custom_font.png" alt="Custom Font" style="width: 100%;"/>
+      <p>Correcting Precision with Custom Font (Avenir Black)</p>
+    </td>
+    <td style="width: 50%; text-align: center;">
+      <img src="images/correcting_precision_system_font.png" alt="System Font" style="width: 100%;"/>
+      <p>Correcting Precision with System Font</p>
+    </td>
+  </tr>
+</table>
+
+
 
 Just like you would choose the right outfit to wear for a specific occasion, you should choose the right font for your scientific visualization. The right font can help to make your data look clear, organized, and easy to understand. The wrong font can make your data look cluttered, confusing, and difficult to read.
 
