@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import os
 import zipfile
+from io import StringIO
 
 # Custom font path
 font_path = 'font/Avenir/Avenir Black/Avenir Black.ttf'
@@ -50,7 +51,7 @@ Pure-heuristic Transformer (CnG),64.02,54.03,#3880f2
 MTT-augmented (Tiny),50.98,33.40,#100198
 Jamspell,29.84,18.18,#f6ce7f
 ''')
-    table = pd.read_csv(pd.compat.StringIO(table_data), sep=',|\t', engine='python')
+    table = pd.read_csv(StringIO(table_data), sep=',|\t', engine='python')
 else:
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
     if uploaded_file:
